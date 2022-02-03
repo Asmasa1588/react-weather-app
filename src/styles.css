@@ -1,0 +1,32 @@
+.App {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.currentWeather {
+  display: flex-start;
+}
+.currentWeather:first-letter {
+  text-transform: capitalize;
+}
+body {
+  /* background-image: linear-gradient(
+    45deg,
+    hsl(240deg 80% 68%) 0%,
+    hsl(205deg 100% 50%) 10%,
+    hsl(199deg 100% 50%) 20%,
+    hsl(187deg 100% 42%) 30%,
+    hsl(161deg 100% 40%) 40%,
+    hsl(130deg 94% 42%) 50%,
+    hsl(156deg 100% 41%) 60%,
+    hsl(174deg 100% 41%) 70%,
+    hsl(188deg 100% 46%) 80%,
+    hsl(195deg 100% 50%) 90%,
+    hsl(198deg 100% 50%) 100%
+  ); */
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 209, 233, 1) 100%
+  );
+  height: 100vh;
+}
